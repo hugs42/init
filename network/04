@@ -1,0 +1,1 @@
+netstat -rn | grep -num 1 default | tr -s ' ' | cut -d ' ' -f2
