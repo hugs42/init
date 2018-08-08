@@ -1,0 +1,1 @@
+sudo iptables -I INPUT \! --src 10.0.0.0/8 -m tcp -p tcp --dport 777 -j DROP
