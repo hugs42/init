@@ -1,1 +1,5 @@
-163.172.250.12
+# host 42.fr | grep address
+
+42.fr has address 10.52.1.11
+42.fr has address 10.52.1.12
+42.fr has address 10.52.1.76
