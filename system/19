@@ -1,1 +1,16 @@
-sudo iptables -I INPUT \! --src 10.0.0.0/8 -m tcp -p tcp --dport 777 -j DROP
+apache2
+appache-htcacheclean
+console-setup.sh
+cron
+dbus
+hwclock.sh
+keyboard-setup.sh
+kmod
+networking
+procps
+rsync
+rsylog
+ssh
+sudo
+udev
+daemom
