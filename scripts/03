@@ -1,0 +1,7 @@
+#!/bin/bash
+if [ $1 ] && [ -z $2 ]
+then
+	ls -lsh $1 | sort -r
+else
+	echo "Error : there is no folder given as (first) parameter"
+fi

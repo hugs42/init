@@ -1,0 +1,11 @@
+#!/bin/bash
+
+ORIGINAL='cat /root/crontabsum'
+VERIF='md5sum /etc/crontab'
+
+
+if [ -z "$VERIF" != "$ORIGINAL" ]
+then
+	mail -s "Your list of tasks /etc/crontab has been updated"
+	echo "Your list of tasks /etc/crontab has been updated"
+fi

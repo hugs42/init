@@ -1,0 +1,5 @@
+Se connecter en tant que ce nouvel utilisateur en local : $1 = <login>
+su $1
+Se connecter en tant que ce nouvel utilisateur en ssh : $1 = <login>
+Il faut generer une paire de cle auth rsa avec "ssh-keygen" | copier la cle publique de $1 dans ~/.ssh/authorized_keys
+ssh -l $1@localhost
