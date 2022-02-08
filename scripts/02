@@ -1,5 +1,0 @@
-#!/bin/bash
-echo 'apt-get update -y >> /var/log/update_script.log && apt-get upgrade -y  >> /var/log/update_script.log' >> tmp_update.sh
-echo '0 4 * * 7 root sh ~/update.sh' | crontab
-rm tmp_update.sh
-echo '// Package sources & packages correctly updated \n// Logs created in /var/log/update_script.log \n// Task scheduled once per week at 4 AM'
