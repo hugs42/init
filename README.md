@@ -8,4 +8,4 @@ This project is proposed by the slash16 team. Slash16 is a network of people who
 
 ## Subject
 
-The subject can be found [here](https://abguimba.github.io/PDFs/42-init.en.pdf)
+The subject can be found [here](/subject.en.pdf)
